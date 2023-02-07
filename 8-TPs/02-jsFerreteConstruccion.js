@@ -5,24 +5,31 @@ C.	Para hacer un contrapiso de 1m x 1m se necesitan 2 bolsas de cemento y 3 de c
 */
 
 function Rectangulo () 
-{ 
+{       //Declaro las variables
     let ancho;
     let largo;
     let alambre;
     let perimetro;
 
+        //Aca en la variable Ancho y Largo se le va a asignar un parseo con un cuadro de texto de Html con valor
     ancho = parseFloat(document.getElementById("txtIdAncho").value)
     largo = parseFloat(document.getElementById("txtIdLargo").value)
-
+        
+    
+    //En la linea 20 hacemos una funcion para hallar perimetro en la variable perimetro
     perimetro =  (ancho + largo) * 2
-
+    //Una vez obtenido el resultado de la variable perimetro se lo multiplica * 3 ya que pide que alambre pase tres veces
     alambre = perimetro * 3
-
+    //Luego de tener el valor de la variable alambre llamo un alert que diga en la pantalla que para tres hilos se va a necesitar tal numero de alambre en metros
     alert(`Para tres hilos de alambre se va a necesitar ${alambre} metros`)
+
+    
     
 }
 function Circulo ()  
 {
+    
+   
     let radio;
     let alambre;
     const PI = 3.14;
@@ -41,12 +48,14 @@ function Circulo ()
 }
 function Materiales () 
 {   
+    
+    
     let ancho;
     let largo;
     let cal;
     let cemento;
     let area;
-    let metros;
+    
    
 
     ancho = parseFloat(document.getElementById("txtIdAncho").value)

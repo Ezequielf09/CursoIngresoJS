@@ -10,8 +10,11 @@ function SacarResto()
 	let resto; 
 
 
-	num1 = document.getElementById("txtIdNumeroDividendo").value
-	num2 = document.getElementById("txtIdNumeroDivisor").value
+	num1 = document.getElementById("txtIdNumeroDividendo").value;
+	num2 = document.getElementById("txtIdNumeroDivisor").value;
+
+	parseInt(num1);
+	parseInt(num2);
 
 	resto = num1 % num2;
 

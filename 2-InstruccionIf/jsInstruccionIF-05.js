@@ -5,8 +5,8 @@ function mostrar()
 	edad = parseInt(document.getElementById("txtIdEdad").value);
 
 	if( edad < 13 || edad > 17){
-		alert("No es un adolescente")
+		alert("No es un adolescente");
 	}
 	
-
+	document.getElementById("txtIdEdad").value = "";
 }

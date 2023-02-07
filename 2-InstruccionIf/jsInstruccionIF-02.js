@@ -1,16 +1,14 @@
 function mostrar()
 {
-	//tomo la edad  
-	
-	let edad ;
-
-	edad = document.getElementById("txtIdEdad").value
+	let edad = document.getElementById("txtIdEdad").value;
+	edad = parseInt(edad);
 
 	if (edad >= 18){
-		alert("Usted es mayor")
+		alert("Usted es mayor");
 	}
 
+}
 
-	document.getElementById("txtIdEdad").value =""
 
-}//FIN DE LA FUNCIÓN
+
+//document.getElementById("txtIdEdad").value =""
