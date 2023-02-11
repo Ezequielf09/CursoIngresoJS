@@ -7,15 +7,45 @@ function mostrar()
 
 	maximo = 10;
 	minimo= 1;
-	numero = Math.round(Math.random() * (maximo-minimo) + minimo)
-	if (numero >= 9){
-		alert ("Excelente: " +numero)
-	}
-	else if (numero >=4){
-		alert("Aprobó: " + numero)
+	numero = Math.round(Math.random() * (maximo-minimo) + minimo);
+	if(numero >= 9){
+		alert ("Excelente: " +numero);
 	}
 	else{
-		alert("Vamos, la proxima se puede: " + numero)
+		if(numero >= 4){
+			alert("Aprobó: " +numero);
+		}
+		else{
+			alert("Vamos, la proxima se puede: " +numero)
+		}
 	}
-
-}//FIN DE LA FUNCIÓN
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	//FIN DE LA FUNCIÓN
+	// if(numero >=4){
+	// 	alert("Aprobó: " + numero);
+	// }
+	// else{
+	// 	alert("Vamos, la proxima se puede: " + numero);
+	// }

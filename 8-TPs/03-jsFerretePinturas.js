@@ -8,13 +8,13 @@ function FahrenheitCentigrados ()
     let centígrados;
     let temperatura;
 
-    Fahrenheit = parseFloat(document.getElementById("txtIdTemperatura").value)
+    Fahrenheit = parseFloat(document.getElementById("txtIdTemperatura").value);
 
-    centígrados = (Fahrenheit - 32) / 1.8
+    centígrados = (Fahrenheit - 32) / 1.8;
 
-    temperatura = centígrados
+    temperatura = centígrados;
 
-    alert(`Con ${Fahrenheit} Fahrenheit son ${temperatura} centigrados`)
+    alert(`Con ${Fahrenheit} Fahrenheit son ${temperatura} centigrados`);
 }
 
 function CentigradosFahrenheit () 
@@ -23,11 +23,11 @@ function CentigradosFahrenheit ()
     let centígrados;
     let temperatura;
 
-    centígrados = parseFloat(document.getElementById("txtIdTemperatura").value)
+    centígrados = parseFloat(document.getElementById("txtIdTemperatura").value);
 
-    Fahrenheit = centígrados * 1.8 + 32
+    Fahrenheit = centígrados * 1.8 + 32;
 
-    temperatura = Fahrenheit
+    temperatura = Fahrenheit;
 
-    alert(`Con ${centígrados} Fahrenheit son ${temperatura} centigrados`)
+    alert(`Con ${centígrados} Fahrenheit son ${temperatura} centigrados`);
 }

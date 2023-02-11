@@ -6,5 +6,6 @@ Ezequiel Fleitas Div x
 function mostrar()
 {
 	alert("Esto funciona de Maravilla");
+	
 }
 
