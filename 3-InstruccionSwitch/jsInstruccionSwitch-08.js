@@ -4,16 +4,13 @@ function mostrar()
 	
 	switch(destinoIngresado){
 		case "Bariloche":
-			alert("Hace FRIO")
-			break;
 		case "Ushuaia":
-			alert("Hace FRIO")
-			break;
-		case "Cataratas":
-			alert("Hace CALOR")
+			alert("Hace FRIO");
 			break;
 		case "Mar del plata":
-			alert("Hace CALOR")
+		case "Cataratas":
+			alert("Hace CALOR");
+			break;
 	}
 
 }//FIN DE LA FUNCIÓN

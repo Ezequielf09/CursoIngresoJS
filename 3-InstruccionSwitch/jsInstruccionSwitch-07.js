@@ -1,19 +1,21 @@
 function mostrar()
 {
 	let destinoIngresado = document.getElementById("txtIdDestino").value;
+	let mensaje;
 	
 	switch(destinoIngresado){
 		case "Bariloche":
-			alert("El punto cardinal es Este")
+			mensaje = "El punto cardinal es Oeste";
 			break;
 		case "Ushuaia":
-			alert("El punto cardinal es Sur")
+			mensaje = "El punto cardinal es Sur";
 			break;
 		case "Cataratas":
-			alert("El punto cardinal es Norte")
+			mensaje = "El punto cardinal es Norte";
 			break;
 		case "Mar del plata":
-			alert("El punto caridnal es Sur")
+			mensaje = "El punto cardinal es Este";
 	}
+	alert(mensaje);
 
 }//FIN DE LA FUNCIÓN

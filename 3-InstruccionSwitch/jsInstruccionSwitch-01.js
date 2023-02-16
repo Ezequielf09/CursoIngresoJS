@@ -1,10 +1,10 @@
 function mostrar()
 {
-	let mesDelAño;
-	mesDelAño =document.getElementById("txtIdMes").value
+	let mes;
+	mes =document.getElementById("txtIdMes").value
 	
 	
-	switch(mesDelAño){
+	switch(mes){
 		case "Enero":{
 			alert("Que comiences bien el año!!!")
 			break;
@@ -33,16 +33,16 @@ function mostrar()
 
 	
 	
-	// if( mesDelAño == "Enero"){
+	// if( mes == "Enero"){
 	// 	alert("Que comiences bien el año")
 	// }
-	// else if( mesDelAño == "Marzo"){
+	// else if( mes == "Marzo"){
 	// 	alert("A clases")								----------> EJEMPLO CON IF 
 	// }
-	// else if( mesDelAño == "Julio"){
+	// else if( mes == "Julio"){
 	// 	alert("Se vienen las vacaciones")
 	// }
-	// else if( mesDelAño == "Diciembre"){
+	// else if( mes == "Diciembre"){
 	// 	alert("Felices fiestas")
 	// }
 
